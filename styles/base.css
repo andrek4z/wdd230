@@ -62,7 +62,7 @@ main {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px 0;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
 }
 
   
@@ -80,6 +80,7 @@ main {
     background-color: greenyellow;
     text-align: center;
     padding: 15px;
+    margin-top: 0;
 }
   
 .card-content {
