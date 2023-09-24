@@ -1,0 +1,49 @@
+header {
+    background-color: #83C5BE;
+    padding: 20px 0;
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    margin: 0 auto;
+	max-width: 1000px;
+    max-height: 52px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+  
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+}
+
+footer{
+    padding: 10px;
+    background-color: #83C5BE;
+    margin: 0 auto;
+	max-width: 1050px;
+    text-align: center;
+}
