@@ -1,19 +1,22 @@
 @media screen and (min-width: 768px) 
 {
-    nav ul {
+  nav ul {
 		display: flex;
 	}
+
 	nav ul li {
 		flex: 1 1 100%;
 	}
   
-    main 
-    {
-      column-count: 2;
-    }
+  main {
+    column-count: 2;
+  }
   
-    .card 
-    {
-      margin-right: 20px;
-    }
+  .card {
+    margin-right: 20px;
+  }
+
+  #menu {
+    display: none;
+  }
 }
