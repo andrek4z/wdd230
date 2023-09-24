@@ -125,13 +125,13 @@ footer{
 /* Mobile View ***************/
 
 #menu {
-	display: block;
+    display: block;
 	font-size: 2rem;
-	font-weight:700;
+	font-weight: 700;
 	text-decoration: none;
 	padding: .5rem .75rem;
-	background-color: #eee;
-	color: #000;
+	background-color: black;
+	color: white;
 }
 
 #menu::before {
@@ -146,10 +146,12 @@ footer{
 	display: none;
 }
 
-
-.navigation a:hover, navigation a:active {
-	color: white;
-	background-color: black;
+.navigation a {
+	display: block;
+	text-align: left;
+    background-color: black;
+	font-weight: 500;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
 .show li {
