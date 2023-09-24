@@ -62,6 +62,98 @@ main {
     grid-template-columns: 2fr 1fr;
 }
 
+.hero{
+    background-color: #fff;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.call{
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 13px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+  
+.card-title {
+    font-size: 30px;
+}
+
+.card h2{
+    background-color: #83C5BE;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+}
+  
+.card-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.card li{
+    list-style: disc;
+    padding-left: 0;
+    margin-left: 2rem;
+}
+
+.card ul {
+    margin-bottom: 0;
+}
+
+.card a {
+    color: #2d72d2;
+    font-weight: 700;
+}
+
+.card p{
+    text-align: center;
+}
+
+.spotlights {
+    background-color: #fff;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+  
+.spotlights-title {
+    font-size: 30px;
+}
+
+.spotlights h3{
+    background-color: #83C5BE;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+}
+  
+.spotlights-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.spotlights li{
+    list-style: disc;
+    padding-left: 0;
+    margin-left: 2rem;
+}
+
+.spotlights ul {
+    margin-bottom: 0;
+}
+
+.spotlights a {
+    color: #2d72d2;
+    font-weight: 700;
+}
+
+.spotlights p{
+    text-align: center;
+}
+
 footer{
     padding: 10px;
     background-color: #83C5BE;

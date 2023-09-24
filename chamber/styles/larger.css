@@ -7,4 +7,16 @@
     nav ul li {
 	    flex: 1 1 100%;
     }
+
+    main {
+        column-count: 2;
+    }
+      
+    .card {
+        margin-right: 15px;
+    }  
+
+    .spotlights{
+        margin-right: 15px;
+    }
 }
