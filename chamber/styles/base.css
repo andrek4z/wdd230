@@ -10,10 +10,10 @@ header {
     max-width: 1100px;
     margin: 0 auto;
     text-align: center;
-    display: flex;
+
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 30px; 
 }
 
 h1 {
@@ -22,14 +22,19 @@ h1 {
 }
 
 nav {
-    background-color: black;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d72d2;
+    align-items: center;
+    /*margin: 0 auto;
 	max-width: 1050px;
-    max-height: 52px;
+    max-height: 52px; */
 }
 
-nav ul {
+.links {
     list-style-type: none;
+    display: flex;
+    width: 100%;
 }
   
 nav a {
@@ -61,12 +66,17 @@ main {
     margin: 0 auto;
     padding: 20px 0;
     grid-template-columns: 2fr 1fr;
+    gap: 1rem;
 }
 
 .hero{
     background-color: #fff;
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
     border-radius: 4px;
+    grid-column: 1/3;
+    position: relative;
+    height: 300px;
+    margin-bottom: 2rem;
 }
 
 .call{
@@ -74,6 +84,8 @@ main {
     border: 1px solid black;
     padding: 13px;
     position: absolute;
+    top: 4rem;
+    left: 2rem;
 }
 
 .card {
@@ -98,7 +110,7 @@ main {
     line-height: 1.5;
 }
 .card li{
-    list-style: disc;
+    list-style: none;
     padding-left: 0;
     margin-left: 2rem;
 }
@@ -110,6 +122,7 @@ main {
 .card a {
     color: #2d72d2;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .card p{
@@ -120,16 +133,23 @@ main {
     background-color: #fff;
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
     border-radius: 4px;
+    grid-column: 1/3;
+    display: flex;
+    gap: 4px;
 }
   
 .spotlights-title {
     font-size: 30px;
 }
 
+.ad{
+    border-radius: 4px;
+}
+
 .spotlights h3{
     background-color: #83C5BE;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     margin-top: 0;
 }
   
