@@ -57,3 +57,184 @@
 		display: none;
 	}
 }
+
+/*........................................................................................................../*
+
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+  
+header {
+    background-color: #83C5BE;
+    padding: 20px 0;
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+img {
+    width: 100px;
+    height: 120px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+}
+  
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+h2{
+    grid-column: 1/3;
+    border-bottom: 1px solid black;
+}
+  
+nav {
+    background-color: black;
+    margin: 0 auto;
+	max-width: 1000px;
+    max-height: 52px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+  
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+}
+
+.active{
+    color: #83C5BE;
+}
+  
+main {
+    display: grid;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.hero {
+    grid-column: 1/3;
+    position: relative;
+}
+
+.hero picture{
+    width: 100%;
+    align-items: center;
+    
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+.herolabel{
+    background-color: #c7d193;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding: 5px;
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+}
+
+.herolabel p{
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+  
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+  
+.card-title {
+    font-size: 30px;
+}
+
+.card h3{
+    background-color: #83C5BE;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+}
+  
+.card-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.card li{
+    list-style: disc;
+    padding-left: 0;
+    margin-left: 2rem;
+}
+
+.card ul {
+    margin-bottom: 0;
+}
+
+.card a {
+    color: #1151ab;
+    font-weight: 700;
+}
+
+.card p{
+    text-align: center;
+}
+  
+ul {
+    padding: 0;
+}
+  
+li {
+    margin-bottom: 10px;
+}
+
+iframe{
+    width: 100%;
+    grid-column: 1/3;
+    padding-top: 15px;
+}
+
+footer{
+    padding: 5px;
+    background-color: #83C5BE;
+    margin: 0 auto;
+	max-width: 1050px;
+    text-align: center;
+}
+
+footer p{
+    color: #000;
+}
+
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+/* Mobile View ***************/
