@@ -19,6 +19,10 @@
 		flex: 1 1 100%;
 	}
 
+	h2{
+		font-size: 30px;
+	}
+
   	main {
 		display: grid;
 		max-width: 960px;
@@ -53,6 +57,10 @@
 
 	.card ul {
 		margin-bottom: 0;
+	}
+
+	ul {
+		padding: 0;
 	}
 
 	iframe{
