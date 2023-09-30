@@ -1,37 +1,35 @@
 body {
     font-family: sans-serif;
     color: black;
-    background-color: white;
+    background-color: #fff;
+    font-size: 80.5%;
 }
 
 header {
-    background-color: #83C5BE;
+    background-color: #000;
     padding: 20px 0;
-    max-width: 1100px;
-    margin: 0 auto;
     text-align: center;
-
     align-items: center;
     justify-content: center;
     gap: 30px; 
 }
 
+header p{
+    color:#fff;
+}
+
 h1 {
-    font-size: 30px;
+    color: #fff;
+    font-size: 20px;
     margin: 0;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
-    background-color: #2d72d2;
     align-items: center;
-    /*margin: 0 auto;
-	max-width: 1050px;
-    max-height: 52px; */
 }
 
-.links {
+.navigation {
     list-style-type: none;
     display: flex;
     width: 100%;
@@ -61,31 +59,33 @@ li {
 }
 
 main {
-    display: grid;
-    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px 0;
-    grid-template-columns: 2fr 1fr;
-    gap: 1rem;
+    padding: 10px 0;
 }
 
 .hero{
-    background-color: #fff;
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
-    grid-column: 1/3;
     position: relative;
-    height: 300px;
-    margin-bottom: 2rem;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
 }
 
 .call{
-    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
     border: 1px solid black;
     padding: 13px;
     position: absolute;
-    top: 4rem;
-    left: 2rem;
+    top: 1rem;
+    left: 1rem;
+}
+
+.call a{
+    color: #fff;
 }
 
 .card {
@@ -99,7 +99,7 @@ main {
 }
 
 .card h2{
-    background-color: #83C5BE;
+    background-color: #db8f14;
     text-align: center;
     padding: 15px;
     margin-top: 0;
@@ -129,13 +129,14 @@ main {
     text-align: center;
 }
 
+h3{
+    display: none;
+}
+
 .spotlights {
     background-color: #fff;
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
-    grid-column: 1/3;
-    display: flex;
-    gap: 4px;
+    border-radius: 8px;
 }
   
 .spotlights-title {
@@ -143,11 +144,11 @@ main {
 }
 
 .ad{
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
-.spotlights h3{
-    background-color: #83C5BE;
+.spotlights h4{
+    background-color: #db8f14;
     text-align: center;
     padding: 5px;
     margin-top: 0;
@@ -168,8 +169,10 @@ main {
 }
 
 .spotlights a {
+    display: flex;
     color: #2d72d2;
     font-weight: 700;
+    justify-content: center;
 }
 
 .spotlights p{
@@ -178,14 +181,47 @@ main {
 
 footer{
     padding: 10px;
-    background-color: #83C5BE;
+    background-color: #db8f14;
     margin: 0 auto;
 	max-width: 1100px;
     text-align: center;
     font-size: 13px;
 }
 
-img{
-    width: 35px;
-    height: 35px;
+#menu{
+    display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: black;
+	color: white;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+.navigation {
+	list-style: none;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	text-align: left;
+    background-color: black;
+	font-weight: 500;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "X";
 }

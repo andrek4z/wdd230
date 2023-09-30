@@ -20,9 +20,11 @@
 
 <body>
   <header>
+    <h1>TRUJILLO</h1>
+    <p>Chamber of Commerce</p>
+    <a id = "menu" href = "#"></a>
     <nav>
-      <h1>Trujillo Chamber of Commerce</h1>
-      <ul class="links">
+      <ul class="navigation">
         <li><a href="#" class="active">Home</a></li>
         <li><a href="#">Information</a></li>
         <li><a href="#">About Us</a></li>
@@ -31,14 +33,15 @@
   </header>
   
   <main>
-    <section class="hero">
-      <img src="imagen-hero.png" alt="Hero Imagen">
-      <p>Helping businesses grow and prosper</p>
+    <div class="hero">
+      <source srcset="images/hero-small.webp" media="(max-witdh: 500px)">
+      <source srcset="images/hero-medium.webp" media="(max-witdh: 1000px)">
+      <img src="images/hero-large.jpg" alt="Hero Imagen" width="2" height="1">
       <a href="#" class="call">Join Us</a>
-    </section>
+    </div>
 
     <section class="card">
-      <h2>Current Event</h2>
+      <h2>Events</h2>
       <ul>
         <li>
           <a href="#">Seminar on digital marketing</a>
@@ -61,24 +64,22 @@
       <p>🌞21°C - Sunshine</p>
     </section>
 
+    <h3>Member Spotlights</h3>
     <section class="spotlights">
       <div class="ad">
-        <img src="ad-image-1.jpg" alt="Ad image 1">
-        <h3>Advertisement 1</h3>
+        <h4>🌽 Harvest Time</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget mauris ac turpis tristique scelerisque.
         </p>
         <a href="#">See more</a>
       </div>
       <div class="ad">
-        <img src="ad-image-2.jpg" alt="Ad image 2">
-        <h3>Announcement 2</h3>
+        <h4>🧱 Ceramics</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget mauris ac turpis tristique scelerisque.
         </p>
         <a href="#">See more</a>
       </div>
       <div class="ad">
-        <img src="ad-image-3.jpg" alt="Ad image 3">
-        <h3>Announcement 3</h3>
+        <h4>🐟 Fishing Season</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget mauris ac turpis tristique scelerisque.
         </p>
         <a href="#">See more</a>
@@ -86,22 +87,15 @@
     </section>
   </main>
   <footer>
-    <p id="lastModified">${lastModifiedDate}</p>
-    <p>Contact Me:</p>
-    <div class="social">
-      <a href="https://facebook.com" target="_blank">
-        <img src="images/facebook.png" alt="fb icon">
-      </a>
-      <a href="https://twitter.com" target="_blank">
-        <img src="images/twitter.png" alt="twitter icon">
-      </a>
-      <a href="https://instagram.com" target="_blank">
-        <img src="images/instagram.png" alt="instagram icon">
-      </a>
-    </div>
     <p>&copy; ${copyrightYear}</p>
+    <p>Trujillo Chamber: info@trujillo.org</p>
+    <p>+51 970 568 241</p>
+    <p>Favio Andre Fernandez Mori</p>
+    <p>WDD 230 Project</p>
+    <p id="lastModified">${lastModifiedDate}</p>
   </footer>
   <script src="scripts/getDates.js"></script>
+  <script src="scripts/burguerMenu.js"></script>
 </body>
 
 </html>
