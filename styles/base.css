@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     color: #333;
     background-color: #fff;
+    font-size: 80.5%;
 }
 
 header {
@@ -56,6 +57,8 @@ nav a:hover {
 
 main { 
     padding: 10px 0;
+    width: 95%;
+    margin-inline: auto;
 }
 
 .hero {
@@ -91,7 +94,8 @@ main {
 .card {
     background-color: #fff;
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .card-title {
@@ -105,12 +109,8 @@ main {
     margin-top: 0;
 }
 
-.card-content {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
 .card li{
+    margin-bottom: 8px;
     list-style: disc;
     padding-left: 0;
 }
@@ -124,12 +124,20 @@ main {
     text-align: center;
 }
 
+.card ul{
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
 ul {
-    padding: 25px;
+    padding: 0;
 }
   
 li {
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 iframe{
@@ -155,6 +163,16 @@ footer p{
 	right: 1rem;
 	font-size: 2rem;
 	cursor: pointer;
+}
+
+.dark{
+    background-color: #242424;
+    color: #fff;
+}
+
+.dark .card{
+    color: #000;
+    background-color: #ffffff80;
 }
 
 #menu{
