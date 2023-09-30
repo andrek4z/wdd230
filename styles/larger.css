@@ -6,6 +6,10 @@
 		gap: 30px;
 	}
 
+	h1{
+		font-size: 35px;
+	}
+
 	nav{
 		max-width: 1000px;
     	max-height: 52px;
