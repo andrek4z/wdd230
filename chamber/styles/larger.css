@@ -1,5 +1,9 @@
 @media screen and (width > 640px) 
 {
+    header{
+        max-width: 1050px;
+    }
+
     nav ul {
 		display: flex;
 	}
@@ -49,6 +53,10 @@
         margin: 10px;
         text-align: center;
         padding: 10px;
+    }
+
+    footer{
+        max-width: 1050px;
     }
 }
 
