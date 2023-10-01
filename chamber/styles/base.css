@@ -230,3 +230,16 @@ footer{
 #menu.show::before {
 	content: "X";
 }
+
+/*...............................................................................*/
+
+picture img{
+    max-width: 390px;
+    height: auto;
+
+}
+
+.main{
+    justify-content: center;
+    
+}

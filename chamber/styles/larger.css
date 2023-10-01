@@ -58,6 +58,12 @@
     footer{
         max-width: 1050px;
     }
+
+    picture img{
+        max-width: 600px;
+        height: auto;
+        padding: 10px;
+    }
 }
 
 @media only screen and (width > 640px) {
