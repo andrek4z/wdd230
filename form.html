@@ -37,7 +37,10 @@
     <main>
       <form>
         <fieldset>
-            
+            <legend>User Registration</legend>
+            <label class="top">Username* <input type="text" id="uname" name="uname" required></label>
+            <label class="top">Password* <input type="password" id="password" name="password" required pattern="[A-Za-z0-9]{8,}" placeholder="At least eight characters long."></label>
+            <label class="top">Repeat Password* <input type="password" id="rpassword" name="rpassword" required></label>
         </fieldset>
       </form>
     </main>
