@@ -33,19 +33,20 @@
   
   <main>
     <form method="get" action="thankyou.html">
+      <p class="chamber">Join to Our Chamber</p>
       <fieldset>
         <legend>Member Information</legend>
         <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
         <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
         <label class="top">Title or Position* <input type="text" id="position" name="position" pattern="^[a-zA-Z\- ]{7,}$"></label>
         <label class="top">Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
-        <label class="top">Mobile <input type="telephone" id="telephone" name="telephone" required></label>
+        <label class="top">Mobile* <input type="telephone" id="telephone" name="telephone" required></label>
       </fieldset>
 
       <fieldset>
         <legend>Organization / Business Information</legend>
-        <label class="top">Business/Organization's Name<input type="text" id="business" name="business" required></label>
-        <label class="top ">Membership Level
+        <label class="top">Business/Organization's Name <input type="text" id="business" name="business" required></label>
+        <label class="top ">Membership Level 
           <select name="subject">
               <option value="">Please Select &#9662;</option>
               <option value="np">NP Membership</option>
@@ -54,7 +55,7 @@
               <option value="gold">Gold Membership</option>
           </select>
       </label>
-      <label class="top">Business/Organization's Description<textarea type="text" id="business" name="business" required></textarea></label>
+      <label class="top">Business/Organization's Description <textarea type="text" id="business" name="business" required></textarea></label>
       </fieldset>
 
       <input type="hidden" id="timestamp" name="timestamp">
