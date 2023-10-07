@@ -319,3 +319,7 @@ form label.top input:required:valid{
     padding-top: 100px;
     height: 150px;
 }
+
+.membership-benefits {
+    display: none;
+}

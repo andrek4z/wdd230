@@ -79,6 +79,37 @@
         box-shadow: 0 0 50px #333;
         opacity: .5;
     }
+
+    form{
+        padding-right: 2rem;
+    }
+
+    .membership-benefits {
+        display: block;
+        margin-top: 90px;
+    }
+
+    .membership-benefits h2{
+        font-size: 22px;
+        background-color: #db8f14;
+        padding: 14px;
+    }
+
+    .membership-benefits ul{
+        padding-left: 10px;
+    }
+
+    .membership-benefits li{
+        list-style: disc;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    .membership-benefits p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 }
 
 @media only screen and (width > 640px) {
