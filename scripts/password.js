@@ -9,7 +9,7 @@ function checkSame()
 {
     if(p1.value !== p2.value)
     {
-        message.textContent = "Passwords DO NOT match";
+        message.textContent = "Passwords DO NOT match, try again";
         message.style.visibility = "show";
         p1.value = "";
         p2.value = "";

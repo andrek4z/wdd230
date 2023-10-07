@@ -39,11 +39,11 @@
       <form class="cform" method="get" action="record.html">
         <fieldset>
             <legend>User Registration</legend>
-            <label class="top">Username* <input type="text" id="uname" name="uname" required></label>
+            <label class="top">Username* <input type="text" id="uname" name="username" required></label>
             <label class="top">Password* <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" title="At least eight characters long." required></label>
             <label class="top">Repeat Password* <input type="password" id="rpassword" name="rpassword" required></label>
             <label class="top">Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" placeholder="someone@byui.edu" required></label>
-            <label class="top">Page Rating <input type="range" id="prating" name="prating" min="0" max="10" value="0" step="1" list="rangevalues"></label>
+            <label class="top">Page Rating <input type="range" id="pageRating" name="pageRating" min="0" max="10" value="0" step="1" list="rangevalues"></label>
             <datalist id="rangevalues">
                 <option value="0">0</option>
                 <option value="1">1</option>
