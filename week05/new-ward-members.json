@@ -1,0 +1,38 @@
+{
+    "familyName" : "Fernandez",
+    "dateMove" : "02-02-2018",
+    "numberPeople" : "5",
+    "visitedBishopric" : "yes",
+    "members" : 
+    [
+        {
+            "name" : "Favio",
+            "gender" : "male",
+            "birthday" : "04-03-1998"
+        },
+
+        {
+            "name" : "Henry",
+            "gender" : "male",
+            "birthday" : "09-07-1982"
+        },
+
+        {
+            "name" : "Luis",
+            "gender" : "male",
+            "birthday" : "24-11-1956"
+        },
+
+        {
+            "name" : "Alina",
+            "gender" : "female",
+            "birthday" : "09-05-1956"
+        },
+
+        {
+            "name" : "Muriel",
+            "gender" : "female",
+            "birthday" : "17-02-1987"
+        }
+    ]
+}
