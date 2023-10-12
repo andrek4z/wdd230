@@ -1,8 +1,8 @@
 {
     "familyName" : "Fernandez",
     "dateMove" : "02-02-2018",
-    "numberPeople" : "5",
-    "visitedBishopric" : "yes",
+    "numberPeople" : 5,
+    "visitedBishopric" : true,
     "members" : 
     [
         {
