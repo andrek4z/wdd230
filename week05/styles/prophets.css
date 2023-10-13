@@ -22,7 +22,7 @@ li{
     font-size: 17px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
-    margin: 1rem;
+    margin: 6px;
 }
 
 img {
@@ -30,7 +30,8 @@ img {
     max-width: 325px;
     box-shadow: 0 0 30px #777;
     height: 250px;
-    margin-bottom: 20px;
+    margin: 20px;
+
 }
 
 section {
