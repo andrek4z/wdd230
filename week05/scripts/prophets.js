@@ -9,8 +9,6 @@ async function getProphetData()
     displayProphets(data.prophets);
 }
 
-getProphetData();
-
 const displayProphets = (prophets) =>
 {
     prophets.forEach((prophet) => 
@@ -18,8 +16,12 @@ const displayProphets = (prophets) =>
         let card = document.createElement("section");
         let fullName = document.createElement("h2");
         let portrait = document.createElement("img");
+        let date = document.createElement("li");
+        let city = document.createElement("li");
 
         fullName.textContent = `Prophet ${prophet.name} ${prophet.lastname}`;
+        date.textContent = `Date of Birth: ${prophet.birthdate}`;
+        city.textContent = `Place of Birth: ${prophet.birthplace}`;
 
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
@@ -28,8 +30,12 @@ const displayProphets = (prophets) =>
         portrait.setAttribute('height', '440');
 
         card.appendChild(fullName);
+        card.appendChild(date);
+        card.appendChild(city);
         card.appendChild(portrait);
 
         cards.appendChild(card);
     });
 }
+
+getProphetData();
