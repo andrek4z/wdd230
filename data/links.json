@@ -1,0 +1,124 @@
+{
+    "weeks" : 
+    [
+        {
+            "week" : "week 1",
+            "links" : 
+            [
+                {
+                    "url" : "week01/holygrail.html",
+                    "title" : "HG Layout"
+                },
+
+                {
+                    "url" : "https://codepen.io/Andre-Fernandez/pen/ExGpavX?editors=0010",
+                    "title" : "JS Pen"
+                },
+
+                {
+                    "url" : "week01/media-query.html",
+                    "title" : "Media Query"
+                }
+            ]
+        },
+
+        {
+            "week" : "week 2",
+            "links" : 
+            [
+                {
+                    "url" : "week02/design.html",
+                    "title" : "Desing Principles"
+                },
+
+                {
+                    "url" : "https://codepen.io/Andre-Fernandez/pen/OJrQzPy",
+                    "title" : "Hamburger Menu"
+                },
+
+                {
+                    "url" : "week02/dom.html",
+                    "title" : "DOM"
+                }
+            ]
+        },
+
+        {
+            "week" : "week 3",
+            "links" : 
+            [
+                {
+                    "url" : "week03/images/landscape.webp",
+                    "title" : "WebP"
+                },
+
+                {
+                    "url" : "week03/lazyload.html",
+                    "title" : "Lazy Load"
+                },
+
+                {
+                    "url" : "week03/responsive-images.html",
+                    "title" : "Responsive Images"
+                },
+
+                {
+                    "url" : "week03/dom.html",
+                    "title" : "DOM"
+                }
+            ]
+        },
+
+        {
+            "week" : "week 4",
+            "links" : 
+            [
+                {
+                    "url" : "https://codepen.io/Andre-Fernandez/pen/oNJQBzm?editors=1100",
+                    "title" : "Pseudo-class"
+                },
+
+                {
+                    "url" : "week04/images/w3school-exercises.jpeg",
+                    "title" : "CSS Combinators"
+                },
+
+                {
+                    "url" : "week04/tablebuild.html",
+                    "title" : "Table Build"
+                },
+
+                {
+                    "url" : "form-start/index.html",
+                    "title" : "HTML Forms"
+                }
+            ]
+        },
+
+        {
+            "week" : "week 5",
+            "links" : 
+            [
+                {
+                    "url" : "https://codepen.io/Andre-Fernandez/pen/VwqNKVJ",
+                    "title" : "CSS Pseudo-elements"
+                },
+
+                {
+                    "url" : "week05/new-ward-members.json",
+                    "title" : "JSON"
+                },
+
+                {
+                    "url" : "week05/prophets.html",
+                    "title" : "The Fetch API"
+                },
+
+                {
+                    "url" : "week05/weather.html",
+                    "title" : "Weather API"
+                }
+            ]
+        }
+    ]
+}
