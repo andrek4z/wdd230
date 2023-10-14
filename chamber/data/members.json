@@ -1,71 +1,74 @@
-[
-    {
-        "name" : "DolsTrap",
-        "address" : "Dark Avenue 015503 St George",
-        "phoneNumber" : "+1 568 478 9005",
-        "websiteURLs" : "https//:dolstrap.com/wds58-index.html",
-        "imagenURLs" : "",
-        "membershipLevel" : "Gold Membership",
-        "email" : "dolstrap@gmail.com"
-    },
-
-    {
-        "name" : "The Escape Adventure",
-        "address" : "Leef Avenue 54603 American Fort",
-        "phoneNumber" : "+1 480 781 9574",
-        "websiteURLs" : "https//:dolstrap.com/wds58-index.html",
-        "imagenURLs" : "",
-        "membershipLevel" : "Bronze Membership",
-        "email" : "dolstrap@gmail.com"
-    },
-
-    {
-        "name" : "The Mad Hatter",
-        "address" : "San Antonio Street 36547 Lake Bottom",
-        "phoneNumber" : "+1 623 179 1869",
-        "websiteURLs" : "https//:dolstrap.com/wds58-index.html",
-        "imagenURLs" : "",
-        "membershipLevel" : "Silver Membership",
-        "email" : "dolstrap@gmail.com"
-    },
-
-    {
-        "name" : "Quick Laundry",
-        "address" : "Argentina Avenue 78125 Lake Bottom",
-        "phoneNumber" : "+1 484 241 7695",
-        "websiteURLs" : "https//:dolstrap.com/wds58-index.html",
-        "imagenURLs" : "",
-        "membershipLevel" : "Gold Membership",
-        "email" : "dolstrap@gmail.com"
-    },
-
-    {
-        "name" : "Argentinian Restaurant",
-        "address" : "San Fernandino Street 25478 St George",
-        "phoneNumber" : "+1 360 569 7324",
-        "websiteURLs" : "https//:dolstrap.com/wds58-index.html",
-        "imagenURLs" : "",
-        "membershipLevel" : "NP Membership",
-        "email" : "dolstrap@gmail.com"
-    },
-
-    {
-        "name" : "The Corner of Flavor",
-        "address" : "Xenidon Street 36521 Colorado",
-        "phoneNumber" : "+1 270 198 3756",
-        "websiteURLs" : "https//:dolstrap.com/wds58-index.html",
-        "imagenURLs" : "",
-        "membershipLevel" : "Bronze Membership",
-        "email" : "dolstrap@gmail.com"
-    },
-
-    {
-        "name" : "The Forest of Letters",
-        "address" : "Light Avenue 65641 Lake Bottom",
-        "phoneNumber" : "+1 701 365 4204",
-        "websiteURLs" : "https//:dolstrap.com/wds58-index.html",
-        "imagenURLs" : "",
-        "membershipLevel" : "Silver Membership",
-        "email" : "dolstrap@gmail.com"
-    }
-]
+{
+    "members" : 
+    [
+        {
+            "name" : "DolsTrap",
+            "address" : "Dark Avenue 015503 St George",
+            "phoneNumber" : "+1 568 478 9005",
+            "websiteURLs" : "https://dolstrap.com/wds58-index.html",
+            "imagenURLs" : "https://images.squarespace-cdn.com/content/v1/5f772a91486fa449c0d34d94/1630597032588-LY9YN2R2I3YR49A626OS/Phillips+Toy+Mart+Nashville+TN+best.jpg",
+            "membershipLevel" : "Gold Membership",
+            "email" : "dolstrap@gmail.com"
+        },
+    
+        {
+            "name" : "The Escape Adventure",
+            "address" : "Leef Avenue 54603 American Fort",
+            "phoneNumber" : "+1 480 781 9574",
+            "websiteURLs" : "https://escapeadventure.com/iog23-index.html",
+            "imagenURLs" : "https://room-escapers.com/wp-content/uploads/2019/01/Escape-Adventure.jpg",
+            "membershipLevel" : "Bronze Membership",
+            "email" : "escapeAdven@gmail.com"
+        },
+    
+        {
+            "name" : "The Mad Hatter",
+            "address" : "San Antonio Street 36547 Lake Bottom",
+            "phoneNumber" : "+1 623 179 1869",
+            "websiteURLs" : "https://themadhatter.com/tgd4dq-index.html",
+            "imagenURLs" : "https://www.thefairyshop.com.au/cdn/shop/products/mini-purple-velvet-deluxe-mad-hatter-hat.png?v=1645743558",
+            "membershipLevel" : "Silver Membership",
+            "email" : "madHatter@gmail.com"
+        },
+    
+        {
+            "name" : "Quick Laundry",
+            "address" : "Argentina Avenue 78125 Lake Bottom",
+            "phoneNumber" : "+1 484 241 7695",
+            "websiteURLs" : "https://quicklaundray.com/ghttr41-index.html",
+            "imagenURLs" : "https://smartlaundry.in/img/Logo/QUICK_LAUNDRY.png",
+            "membershipLevel" : "Gold Membership",
+            "email" : "quickLaundry@gmail.com"
+        },
+    
+        {
+            "name" : "Argentinian Restaurant",
+            "address" : "San Fernandino Street 25478 St George",
+            "phoneNumber" : "+1 360 569 7324",
+            "websiteURLs" : "https://argentinianrestaurant.com/yt51-index.html",
+            "imagenURLs" : "",
+            "membershipLevel" : "NP Membership",
+            "email" : "argRestaurant@gmail.com"
+        },
+    
+        {
+            "name" : "The Corner of Flavor",
+            "address" : "Xenidon Street 36521 Colorado",
+            "phoneNumber" : "+1 270 198 3756",
+            "websiteURLs" : "https://cornerofflavor.com/wds5f-index.html",
+            "imagenURLs" : "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/l916bosbeeyu9ctoojic",
+            "membershipLevel" : "Bronze Membership",
+            "email" : "cornerOfFlavor@gmail.com"
+        },
+    
+        {
+            "name" : "The Forest of Letters",
+            "address" : "Light Avenue 65641 Lake Bottom",
+            "phoneNumber" : "+1 701 365 4204",
+            "websiteURLs" : "https://theforestofletters.com/arf56-index.html",
+            "imagenURLs" : "https://images.adsttc.com/media/images/61d2/c3fe/3e4b/3194/cc00/00e6/medium_jpg/Snohetta_-_NewCapitalLibraryBeijing_-_Aspire_-_CopyrightPlomp.jpg?1641202661",
+            "membershipLevel" : "Silver Membership",
+            "email" : "forestOfLetters@gmail.com"
+        }
+    ]
+}
