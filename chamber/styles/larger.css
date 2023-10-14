@@ -59,6 +59,10 @@
         padding: 2px;
     }
 
+    ul{
+        flex-direction: row;
+    }
+
     .ad p{
         margin: 10px;
         text-align: center;
