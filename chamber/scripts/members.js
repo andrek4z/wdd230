@@ -1,7 +1,6 @@
 const baseURL = "https://andrek4z.github.io/wdd230/chamber/";
 const membersURL = "https://andrek4z.github.io/wdd230/chamber/data/members.json";
 const gridMembers = document.querySelector("#gridMe");
-const listMembers = document.querySelector("#listMe");
 
 async function getMembers()
 {
