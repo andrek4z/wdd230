@@ -22,10 +22,10 @@ const displayMembersGrid = (members) =>
         let websiteURL = document.createElement("li");
 
         icon.setAttribute("src", member.imagenURLs);
-        icon.setAttribute('alt', `Icon of ${member.name}`);
-        icon.setAttribute('loading', 'lazy');
-        icon.setAttribute('width', '200');
-        icon.setAttribute('height', '180');
+        icon.setAttribute("alt", `Icon of ${member.name}`);
+        icon.setAttribute("loading", "lazy");
+        icon.setAttribute("width", "200");
+        icon.setAttribute("height", "180");
 
         name.textContent = member.name;
         address.textContent = member.address;
