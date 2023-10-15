@@ -6,7 +6,7 @@ async function getMembers()
 {
     const response = await fetch(membersURL);
     const data = await response.json();
-    console.log(data);
+    /*console.log(data);*/
     displayMembersGrid(data.members);
 }
 
@@ -45,3 +45,23 @@ const displayMembersGrid = (members) =>
 }
 
 getMembers()
+
+/*---------------------------------Buttom---------------------------- */
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => 
+{
+	display.classList.add("gridMe");
+	display.classList.remove("listMe");
+});
+
+listbutton.addEventListener("click", showList);
+
+function showList() 
+{
+	display.classList.add("listMe");
+	display.classList.remove("gridMe");
+}
