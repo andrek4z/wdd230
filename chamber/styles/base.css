@@ -380,6 +380,8 @@ form label.top input:required:valid{
 .listMe section {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    text-align: center;
+    padding: 1rem;
 }
 
 .listMe section li{
