@@ -19,7 +19,7 @@ const displayMembersGrid = (members) =>
         let name = document.createElement("li");
         let address = document.createElement("li");
         let number = document.createElement("li");
-        let websiteURL = document.createElement("li");
+        let websiteURL = document.createElement("a");
 
         icon.setAttribute("src", member.imagenURLs);
         icon.setAttribute("alt", `Icon of ${member.name}`);
