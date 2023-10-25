@@ -65,6 +65,32 @@ main {
     padding: 10px 0;
 }
 
+.banner{
+    display: flex;
+    background-color: #db8f14;
+    grid-column: 1/3;
+    margin: .5rem;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.banner p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.close-banner{
+    font-weight: 700;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+
 .hero{
     position: relative;
 }
