@@ -20,7 +20,7 @@ const displayMembers = (members) =>
         {
             if(counter < maxCards) 
             {
-                let card = document.createElement("div");
+                let spotCard = document.createElement("div");
                 let name = document.createElement("h4");
                 let address = document.createElement("p");
                 let phoneNumber = document.createElement("p");
@@ -30,11 +30,11 @@ const displayMembers = (members) =>
                 address.textContent = member.address;
                 phoneNumber.textContent= member.phoneNumber;
                 email.textContent = member.email;
-                card.append(name);
-                card.append(address);
-                card.append(phoneNumber);
-                card.append(email);
-                spot.append(card);
+                spotCard.append(name);
+                spotCard.append(address);
+                spotCard.append(phoneNumber);
+                spotCard.append(email);
+                spot.append(spotCard);
 
                 counter++;
             }
