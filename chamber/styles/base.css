@@ -153,14 +153,15 @@ h3{
     background-color: #fff;
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
+    text-align: center;
+}
+
+.spotlights div{
+    padding: 5px;
 }
   
 .spotlights-title {
     font-size: 30px;
-}
-
-.ad{
-    border-radius: 8px;
 }
 
 .spotlights h4{
